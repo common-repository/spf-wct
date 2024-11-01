@@ -1,0 +1,158 @@
+.modal-header, .modal-body {
+  padding: 15px 25px;
+}
+
+.modal-header, .modal-body table{
+
+}
+
+.modal-header {
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.modal-header h2{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.modal-header button{
+   margin-right: 0;
+   margin-left: auto;
+   padding: 5px 15px;
+}
+
+.footer-flex{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ margin-top: 20px;
+}
+
+.footer-flex button{
+  margin-right: 1em;
+  padding: 5px 15px;
+}
+
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.re{
+  color: red;
+  font-weight: bold;
+}
+
+.modal-body .form-group{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  justify-content: left;
+}
+
+.modal-body .form-group span{
+  width: 120px;
+}
+
+.modal-body .form-group input{
+  margin-right: 3px;
+}
+
+
+.stripe-log{
+
+}
+.stripe-log li{
+  display:flex;
+  border-bottom:1px dashed #f3cc87;
+}
+.stripe-log li time{
+  width:130px;
+}
+.stripe-log li span{
+
+}
+.flex-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+.flex-h{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 5px 15px;
+}
+.flex-h input.button.btn{
+  margin-right:15px;
+  width:120px;
+  text-align:center;
+}
+.flex-h input.button.btn:disabled{
+  background-color:#eee;
+}
+#stripCapture{
+  background-color: #00aa63;
+  color: #fff;
+  border-color: #00aa63;
+}
+
+.sales-status{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2px 0;
+}
+
+.completion_message{
+   color: #155724;
+    background-color: #d4edda;
+    border:1px solid #c3e6cb;
+    padding: 0px 7px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 3px;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.tranc_message{
+    color: #f6f7f7;
+    background-color: #ffa300;
+    border: 1px solid #efa92d;
+    padding: 0px 7px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 3px;
+    font-size: 11px;
+    margin-left: 5px;
+}
